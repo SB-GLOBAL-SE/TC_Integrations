@@ -223,6 +223,18 @@
 															</Property>
 														</Properties>
 													</Child>
+													<Child Name="toolbarbuttonSmartstore2" Key="{0567B660-FD72-4069-B05A-D1B142EA9BA2}" ParallelWalk="True">
+														<Image FileName="718447753" Left="8" Top="74" Right="94" Bottom="94" />
+														<TypeInfo Item0="{27751A97-60BC-43EF-B04D-B8B6576B4C9B}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value PropertyType="0" Value="toolbarbutton" Type="5" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value PropertyType="0" Value="0" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
 												</Children>
 											</Child>
 										</Children>
@@ -313,6 +325,31 @@
 											</Child>
 										</Children>
 									</Child>
+									<Child Name="header" Key="{9DE9479B-D9A7-4664-9410-2C669AE3A7C1}" ExtendedFind="True" ParallelWalk="True">
+										<Image FileName="-519159403" Left="0" Top="96" Right="1903" Bottom="292" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="Header" Type="5" />
+											</Property>
+											<Property Name="idStr">
+												<Value PropertyType="0" Value="header" Type="5" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="linkSamplesTestcomplete12Smartst" Key="{982FFD7E-94D5-4F10-8F25-6A8C23F20D90}" ExtendedFind="True" ParallelWalk="True">
+												<Image FileName="-519159403" Left="562" Top="231" Right="683" Bottom="292" />
+												<TypeInfo Item0="{27751A97-60BC-43EF-B04D-B8B6576B4C9B}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value PropertyType="0" Value="Link" Type="5" />
+													</Property>
+													<Property Name="contentText">
+														<Value PropertyType="0" Value="Mobile phone" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{00730DFD-28F1-4095-BB9C-4590753F52C3}" ParallelWalk="True">
@@ -347,6 +384,7 @@
 			</Child>
 			<Child Name="pageMozillaFirefox" Owner="{0CE7176B-BCC8-41ED-B5FB-C470D629BD7B}">
 				<Child Name="toolbarbuttonSmartstore" Owner="{8459D773-AEDF-44AF-8677-0AB3B137DCB1}" />
+				<Child Name="toolbarbuttonSmartstore2" Owner="{0567B660-FD72-4069-B05A-D1B142EA9BA2}" />
 			</Child>
 			<Child Name="pageShop" Owner="{F28A7C4F-D514-4129-BD19-46C0C4879335}">
 				<Child Name="textboxInstasearch" Owner="{772AE95C-6521-402A-AF42-F01172676DBE}" />
@@ -358,6 +396,9 @@
 							<Child Name="imageAirypodsPngSize250" Owner="{37449DF4-4C2B-4B39-A2C2-FA4F83D71FF5}" />
 						</Child>
 					</Child>
+				</Child>
+				<Child Name="header" Owner="{9DE9479B-D9A7-4664-9410-2C669AE3A7C1}">
+					<Child Name="linkSamplesTestcomplete12Smartst" Owner="{982FFD7E-94D5-4F10-8F25-6A8C23F20D90}" />
 				</Child>
 			</Child>
 			<Child Name="BrowserWindow" Owner="{00730DFD-28F1-4095-BB9C-4590753F52C3}" />
